@@ -1,0 +1,440 @@
+
+**> Welcome to STARLIGHT (v04) & good luck with this run!
+
+**> Read config file: StCv04.C11.config                                                                                   
+**> Read data file: 0414.51901.393.cxt            
+    from dir = /home/cid/STARLIGHTv04/
+    Data goes from:   3200.0  -->   9200.0 Angs with N =  6001 pixels
+    STARLIGHT has read an ERROR (column 3) from 0414.51901.393.cxt                                                                                  
+    STARLIGHT has read an FLAG  (column 4) from 0414.51901.393.cxt                                                                                  
+**> Read base files: Base.BC03.N                                   N_base  =  45
+    from dir = /home/cid/STARLIGHTv04/BasesDir/
+**> Read masks file: Mask.0414.51901.393.cxt.sc1.CRAP.gm.BN        N_masks =  39
+    from dir = /home/cid/STARLIGHTv04/
+**> Modeling 0414.51901.393.cxt             ==> 0414.51901.393.cxt.sc4.C11.im.CAL.BN                                                                
+    Sampling: 3400.0 ==> 8900.0  with dl =   1.0 Angs  & fscale_chi2 = 1.000E+00
+    dl_cushion (A) =   50.0
+    Extinction Law = CAL
+    Initial kinematical parameters: v0 =    0.0 & vd =  150.0 km/s
+    We are going to FIT the spectrum of this galaxy
+    Number of components with different extinction =   0  ( 0.00 < YAV <  0.00)
+    S/N     =   24.912    32.739     in S/N & norm. windows
+    S/N_err =   16.546    21.744     in S/N & norm. windows
+********************************************************************************
+* STARTING FIRST FITS ...
+* N_loops  =   3
+* N_chains =   7
+* Temp     = 1.00E+02 ==> 1.00E+00
+* GR-R     = 1.30E+00 ==> 1.30E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING RE-FIT AFTER CLIPING ...
+* Cliped     2 points with > 3.0 sigma residuals with method = NSIGMA
+* N_loops =   1
+* Temp    = 1.00E+00 ==> 1.00E+00
+* GR-R    = 1.30E+00 ==> 1.30E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING FINAL BURN-IN LOOP...
+* N_loops =   1
+* Temp    = 1.00E+00 ==> 1.00E+00
+* GR-R    = 1.20E+00 ==> 1.20E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING EX0s FITS ...
+* EX0_method     =   CUMUL
+* EX0s_Threshold =   0.020
+* EXOs_PopVector =     MIN
+* N_loops =   5
+* Temp    = 1.00E+00 ==> 1.00E-03
+* GR-R    = 1.20E+00 ==> 1.00E+00  Method =  1  (0/1=Soft/Hard)
+********************************************************************************
+
+**> RESULTS for 0414.51901.393.cxt.sc4.C11.im.CAL.BN                                                                
+   N_tot chi2/Nl_eff    adev |     v0    vd | sum       A_V  Y_AV |     x_j... [%], j = 1 ... 45
+ 1414560 6.5766E-01   4.7687 |  -20.4  47.4 | 101.868  0.21  0.00 |    6.19   6.19   2.01   9.19   0.00   0.00  15.48  12.07   0.40   4.43
+                                                                       0.00   8.69   0.00   0.00   0.00   0.02   4.88   0.00   5.63   0.00
+                                                                       0.00   0.00   3.26   8.11   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   2.42   1.96   4.86   0.00   0.00   0.00   0.39   5.67   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00
+                                                                      Total chi2 =   2.7339E+03  for Nl_eff =  4157 lambdas!
+
+*CidTIME>  FF=       33   RF=        9   BI=        9   EX0=       11   ALL=       68   sec - fit = 0414.51901.393.cxt.sc4.C11.im.CAL.BN                                                                
+*TotTIME>  FF=   30.398   RF=    8.617   BI=    9.329   EX0=   10.093   ALL=   64.704   sec - fit = 0414.51901.393.cxt.sc4.C11.im.CAL.BN                                                                
+*UsrTIME>  FF=   30.302   RF=    8.601   BI=    9.321   EX0=   10.057   ALL=   64.492   sec - fit = 0414.51901.393.cxt.sc4.C11.im.CAL.BN                                                                
+*SysTIME>  FF=    0.096   RF=    0.016   BI=    0.008   EX0=    0.036   ALL=    0.212   sec - fit = 0414.51901.393.cxt.sc4.C11.im.CAL.BN                                                                
+
+
+**> Welcome to STARLIGHT (v04) & good luck with this run!
+
+**> Read config file: StCv04.C11.config                                                                                   
+**> Read data file: 0784.52327.478.cxt            
+    from dir = /home/cid/STARLIGHTv04/
+    Data goes from:   3200.0  -->   9200.0 Angs with N =  6001 pixels
+    STARLIGHT has read an ERROR (column 3) from 0784.52327.478.cxt                                                                                  
+    STARLIGHT has read an FLAG  (column 4) from 0784.52327.478.cxt                                                                                  
+**> Read base files: Base.BC03.N                                   N_base  =  45
+    from dir = /home/cid/STARLIGHTv04/BasesDir/
+**> Read masks file: Mask.0784.52327.478.cxt.sc2.CRAP.gm.BN        N_masks =  23
+    from dir = /home/cid/STARLIGHTv04/
+**> Modeling 0784.52327.478.cxt             ==> 0784.52327.478.cxt.sc4.C11.im.CAL.BN                                                                
+    Sampling: 3400.0 ==> 8900.0  with dl =   1.0 Angs  & fscale_chi2 = 1.000E+00
+    dl_cushion (A) =   50.0
+    Extinction Law = CAL
+    Initial kinematical parameters: v0 =    0.0 & vd =  150.0 km/s
+    We are going to FIT the spectrum of this galaxy
+    Number of components with different extinction =   0  ( 0.00 < YAV <  0.00)
+    S/N     =   24.786    15.612     in S/N & norm. windows
+    S/N_err =   28.272    17.808     in S/N & norm. windows
+********************************************************************************
+* STARTING FIRST FITS ...
+* N_loops  =   3
+* N_chains =   7
+* Temp     = 1.00E+02 ==> 1.00E+00
+* GR-R     = 1.30E+00 ==> 1.30E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING RE-FIT AFTER CLIPING ...
+* Cliped     7 points with > 3.0 sigma residuals with method = NSIGMA
+* N_loops =   1
+* Temp    = 1.00E+00 ==> 1.00E+00
+* GR-R    = 1.30E+00 ==> 1.30E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING FINAL BURN-IN LOOP...
+* N_loops =   1
+* Temp    = 1.00E+00 ==> 1.00E+00
+* GR-R    = 1.20E+00 ==> 1.20E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING EX0s FITS ...
+* EX0_method     =   CUMUL
+* EX0s_Threshold =   0.020
+* EXOs_PopVector =     MIN
+* N_loops =   5
+* Temp    = 1.00E+00 ==> 1.00E-03
+* GR-R    = 1.20E+00 ==> 1.00E+00  Method =  1  (0/1=Soft/Hard)
+********************************************************************************
+
+**> RESULTS for 0784.52327.478.cxt.sc4.C11.im.CAL.BN                                                                
+   N_tot chi2/Nl_eff    adev |     v0    vd | sum       A_V  Y_AV |     x_j... [%], j = 1 ... 45
+  797160 6.2208E-01   3.1436 |   -1.9 225.1 | 106.323 -0.10  0.00 |    0.00   0.00   0.00   4.07   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00  12.58   0.00   0.72   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00  15.22  60.31
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       1.87   0.00   0.00   5.47   6.08
+                                                                      Total chi2 =   2.7066E+03  for Nl_eff =  4351 lambdas!
+
+*CidTIME>  FF=       30   RF=        8   BI=        8   EX0=        2   ALL=       55   sec - fit = 0784.52327.478.cxt.sc4.C11.im.CAL.BN                                                                
+*TotTIME>  FF=   28.298   RF=    7.748   BI=    7.760   EX0=    2.100   ALL=   51.551   sec - fit = 0784.52327.478.cxt.sc4.C11.im.CAL.BN                                                                
+*UsrTIME>  FF=   28.262   RF=    7.728   BI=    7.740   EX0=    2.092   ALL=   51.447   sec - fit = 0784.52327.478.cxt.sc4.C11.im.CAL.BN                                                                
+*SysTIME>  FF=    0.036   RF=    0.020   BI=    0.020   EX0=    0.008   ALL=    0.104   sec - fit = 0784.52327.478.cxt.sc4.C11.im.CAL.BN                                                                
+
+
+**> Welcome to STARLIGHT (v04) & good luck with this run!
+
+**> Read config file: StCv04.C11.config                                                                                   
+**> Read data file: 0414.51901.393.cxt            
+    from dir = /home/cid/STARLIGHTv04/
+    Data goes from:   3200.0  -->   9200.0 Angs with N =  6001 pixels
+    STARLIGHT has read an ERROR (column 3) from 0414.51901.393.cxt                                                                                  
+    STARLIGHT has read an FLAG  (column 4) from 0414.51901.393.cxt                                                                                  
+**> Read base files: Base.BC03.S                                   N_base  = 150
+    from dir = /home/cid/STARLIGHTv04/BasesDir/
+**> Read masks file: Mask.0414.51901.393.cxt.sc1.CRAP.gm.BN        N_masks =  39
+    from dir = /home/cid/STARLIGHTv04/
+**> Modeling 0414.51901.393.cxt             ==> 0414.51901.393.cxt.sc4.C11.im.CAL.BS                                                                
+    Sampling: 3400.0 ==> 8900.0  with dl =   1.0 Angs  & fscale_chi2 = 1.000E+00
+    dl_cushion (A) =   50.0
+    Extinction Law = CAL
+    Initial kinematical parameters: v0 =    0.0 & vd =  150.0 km/s
+    We are going to FIT the spectrum of this galaxy
+    Number of components with different extinction =   0  ( 0.00 < YAV <  0.00)
+    S/N     =   24.912    32.739     in S/N & norm. windows
+    S/N_err =   16.546    21.744     in S/N & norm. windows
+********************************************************************************
+* STARTING FIRST FITS ...
+* N_loops  =   3
+* N_chains =   7
+* Temp     = 1.00E+02 ==> 1.00E+00
+* GR-R     = 1.30E+00 ==> 1.30E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING RE-FIT AFTER CLIPING ...
+* Cliped     2 points with > 3.0 sigma residuals with method = NSIGMA
+* N_loops =   1
+* Temp    = 1.00E+00 ==> 1.00E+00
+* GR-R    = 1.30E+00 ==> 1.30E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING FINAL BURN-IN LOOP...
+* N_loops =   1
+* Temp    = 1.00E+00 ==> 1.00E+00
+* GR-R    = 1.20E+00 ==> 1.20E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING EX0s FITS ...
+* EX0_method     =   CUMUL
+* EX0s_Threshold =   0.020
+* EXOs_PopVector =     MIN
+* N_loops =   5
+* Temp    = 1.00E+00 ==> 1.00E-03
+* GR-R    = 1.20E+00 ==> 1.00E+00  Method =  1  (0/1=Soft/Hard)
+********************************************************************************
+
+**> RESULTS for 0414.51901.393.cxt.sc4.C11.im.CAL.BS                                                                
+   N_tot chi2/Nl_eff    adev |     v0    vd | sum       A_V  Y_AV |     x_j... [%], j = 1 ...150
+ 2683870 6.5613E-01   4.7658 |  -17.1  45.6 | 102.050  0.19  0.00 |   12.93   1.41   0.00   0.00   0.00   0.00   1.18   0.00   0.00   0.00
+                                                                       0.00   0.01   0.00   0.00   0.00   0.00   0.00   0.00   0.16   0.00
+                                                                       0.00   0.91   0.00   0.00   0.00   0.00   2.57   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   3.61
+                                                                       0.04   0.00   0.00   0.01   0.00   0.00   0.00   0.00   0.00   1.16
+                                                                       0.00   0.00   0.50   1.01   3.54   6.87   0.00   0.00   6.21   3.11
+                                                                       0.72   1.55   0.00   0.02   4.13   0.00   5.21   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.01   0.00   5.77  11.34   0.02
+                                                                       0.00   0.00   0.00   1.28   0.00   0.00   0.00   0.00   0.00   0.57
+                                                                       0.00   0.00   0.00   0.00   0.01   6.16   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   9.97   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   1.54   0.00   4.81
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.01   3.69   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+
+                                                                      Total chi2 =   2.7275E+03  for Nl_eff =  4157 lambdas!
+
+*CidTIME>  FF=      387   RF=      109   BI=      121   EX0=       99   ALL=      741   sec - fit = 0414.51901.393.cxt.sc4.C11.im.CAL.BS                                                                
+*TotTIME>  FF=  345.658   RF=  102.602   BI=  112.415   EX0=   88.478   ALL=  674.022   sec - fit = 0414.51901.393.cxt.sc4.C11.im.CAL.BS                                                                
+*UsrTIME>  FF=  344.830   RF=  102.342   BI=  112.175   EX0=   88.338   ALL=  672.486   sec - fit = 0414.51901.393.cxt.sc4.C11.im.CAL.BS                                                                
+*SysTIME>  FF=    0.828   RF=    0.260   BI=    0.240   EX0=    0.140   ALL=    1.536   sec - fit = 0414.51901.393.cxt.sc4.C11.im.CAL.BS                                                                
+
+
+**> Welcome to STARLIGHT (v04) & good luck with this run!
+
+**> Read config file: StCv04.C11.config                                                                                   
+**> Read data file: 0784.52327.478.cxt            
+    from dir = /home/cid/STARLIGHTv04/
+    Data goes from:   3200.0  -->   9200.0 Angs with N =  6001 pixels
+    STARLIGHT has read an ERROR (column 3) from 0784.52327.478.cxt                                                                                  
+    STARLIGHT has read an FLAG  (column 4) from 0784.52327.478.cxt                                                                                  
+**> Read base files: Base.BC03.S                                   N_base  = 150
+    from dir = /home/cid/STARLIGHTv04/BasesDir/
+**> Read masks file: Mask.0784.52327.478.cxt.sc2.CRAP.gm.BN        N_masks =  23
+    from dir = /home/cid/STARLIGHTv04/
+**> Modeling 0784.52327.478.cxt             ==> 0784.52327.478.cxt.sc4.C11.im.CAL.BS                                                                
+    Sampling: 3400.0 ==> 8900.0  with dl =   1.0 Angs  & fscale_chi2 = 1.000E+00
+    dl_cushion (A) =   50.0
+    Extinction Law = CAL
+    Initial kinematical parameters: v0 =    0.0 & vd =  150.0 km/s
+    We are going to FIT the spectrum of this galaxy
+    Number of components with different extinction =   0  ( 0.00 < YAV <  0.00)
+    S/N     =   24.786    15.612     in S/N & norm. windows
+    S/N_err =   28.272    17.808     in S/N & norm. windows
+********************************************************************************
+* STARTING FIRST FITS ...
+* N_loops  =   3
+* N_chains =   7
+* Temp     = 1.00E+02 ==> 1.00E+00
+* GR-R     = 1.30E+00 ==> 1.30E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING RE-FIT AFTER CLIPING ...
+* Cliped     5 points with > 3.0 sigma residuals with method = NSIGMA
+* N_loops =   1
+* Temp    = 1.00E+00 ==> 1.00E+00
+* GR-R    = 1.30E+00 ==> 1.30E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING FINAL BURN-IN LOOP...
+* N_loops =   1
+* Temp    = 1.00E+00 ==> 1.00E+00
+* GR-R    = 1.20E+00 ==> 1.20E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING EX0s FITS ...
+* EX0_method     =   CUMUL
+* EX0s_Threshold =   0.020
+* EXOs_PopVector =     MIN
+* N_loops =   5
+* Temp    = 1.00E+00 ==> 1.00E-03
+* GR-R    = 1.20E+00 ==> 1.00E+00  Method =  1  (0/1=Soft/Hard)
+********************************************************************************
+
+**> RESULTS for 0784.52327.478.cxt.sc4.C11.im.CAL.BS                                                                
+   N_tot chi2/Nl_eff    adev |     v0    vd | sum       A_V  Y_AV |     x_j... [%], j = 1 ...150
+ 1792980 6.1977E-01   3.1275 |   -4.7 221.6 | 106.519 -0.11  0.00 |    0.00   0.00   0.00   0.00   0.79   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   1.80   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.59   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   1.76   0.00   0.00   1.66   0.21
+                                                                       0.06   0.06   4.37   1.23   4.15   0.00   0.00   0.00   0.00   0.00
+                                                                       1.85   0.00   0.00   0.00   0.02   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   4.56  22.13  14.38  27.75   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       8.89   0.00   0.00   0.00   0.00   0.00   0.00   1.73   3.77   4.75
+
+                                                                      Total chi2 =   2.6979E+03  for Nl_eff =  4353 lambdas!
+
+*CidTIME>  FF=      315   RF=       83   BI=       77   EX0=       33   ALL=      540   sec - fit = 0784.52327.478.cxt.sc4.C11.im.CAL.BS                                                                
+*TotTIME>  FF=  280.042   RF=   76.369   BI=   63.868   EX0=   30.142   ALL=  478.570   sec - fit = 0784.52327.478.cxt.sc4.C11.im.CAL.BS                                                                
+*UsrTIME>  FF=  279.445   RF=   76.241   BI=   63.720   EX0=   30.110   ALL=  477.602   sec - fit = 0784.52327.478.cxt.sc4.C11.im.CAL.BS                                                                
+*SysTIME>  FF=    0.596   RF=    0.128   BI=    0.148   EX0=    0.032   ALL=    0.968   sec - fit = 0784.52327.478.cxt.sc4.C11.im.CAL.BS                                                                
+
+
+**> Welcome to STARLIGHT (v04) & good luck with this run!
+
+**> Read config file: StCv04.C11.config                                                                                   
+**> Read data file: 0414.51901.393.cxt            
+    from dir = /home/cid/STARLIGHTv04/
+    Data goes from:   3200.0  -->   9200.0 Angs with N =  6001 pixels
+    STARLIGHT has read an ERROR (column 3) from 0414.51901.393.cxt                                                                                  
+    STARLIGHT has read an FLAG  (column 4) from 0414.51901.393.cxt                                                                                  
+**> Read base files: Base.BC03.S                                   N_base  = 150
+    from dir = /home/cid/STARLIGHTv04/BasesDir/
+**> Read masks file: Mask.0414.51901.393.cxt.sc1.CRAP.gm.BN        N_masks =  39
+    from dir = /home/cid/STARLIGHTv04/
+**> Modeling 0414.51901.393.cxt             ==> 0414.51901.393.cxt.sc4.C11.im.CCM.BS                                                                
+    Sampling: 3400.0 ==> 8900.0  with dl =   1.0 Angs  & fscale_chi2 = 1.000E+00
+    dl_cushion (A) =   50.0
+    Extinction Law = CCM
+    Initial kinematical parameters: v0 =    0.0 & vd =  150.0 km/s
+    We are going to FIT the spectrum of this galaxy
+    Number of components with different extinction =   0  ( 0.00 < YAV <  0.00)
+    S/N     =   24.912    32.739     in S/N & norm. windows
+    S/N_err =   16.546    21.744     in S/N & norm. windows
+********************************************************************************
+* STARTING FIRST FITS ...
+* N_loops  =   3
+* N_chains =   7
+* Temp     = 1.00E+02 ==> 1.00E+00
+* GR-R     = 1.30E+00 ==> 1.30E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING RE-FIT AFTER CLIPING ...
+* Cliped     2 points with > 3.0 sigma residuals with method = NSIGMA
+* N_loops =   1
+* Temp    = 1.00E+00 ==> 1.00E+00
+* GR-R    = 1.30E+00 ==> 1.30E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING FINAL BURN-IN LOOP...
+* N_loops =   1
+* Temp    = 1.00E+00 ==> 1.00E+00
+* GR-R    = 1.20E+00 ==> 1.20E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING EX0s FITS ...
+* EX0_method     =   CUMUL
+* EX0s_Threshold =   0.020
+* EXOs_PopVector =     MIN
+* N_loops =   5
+* Temp    = 1.00E+00 ==> 1.00E-03
+* GR-R    = 1.20E+00 ==> 1.00E+00  Method =  1  (0/1=Soft/Hard)
+********************************************************************************
+
+**> RESULTS for 0414.51901.393.cxt.sc4.C11.im.CCM.BS                                                                
+   N_tot chi2/Nl_eff    adev |     v0    vd | sum       A_V  Y_AV |     x_j... [%], j = 1 ...150
+ 2382660 6.5498E-01   4.7721 |  -21.1  43.4 | 101.440  0.27  0.00 |   14.04   0.06   0.00   1.99   2.27   0.00   0.00   0.00   0.00   0.00
+                                                                       0.01   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   2.02   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.09
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.56
+                                                                       3.56   0.00   1.09   0.00   0.00   0.42   0.00   0.00  15.55   5.15
+                                                                       0.04   0.04   0.00   0.00   0.00   0.00   6.88   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.12   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   4.16  11.77   8.68   0.84
+                                                                       0.44   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   2.61   3.26   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00  12.38   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.01   3.36
+                                                                       0.00   0.00   0.00   0.03   0.00   0.00   0.02   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+
+                                                                      Total chi2 =   2.7227E+03  for Nl_eff =  4157 lambdas!
+
+*CidTIME>  FF=      331   RF=       90   BI=      235   EX0=      148   ALL=      857   sec - fit = 0414.51901.393.cxt.sc4.C11.im.CCM.BS                                                                
+*TotTIME>  FF=  314.652   RF=   79.905   BI=  113.963   EX0=   68.452   ALL=  605.074   sec - fit = 0414.51901.393.cxt.sc4.C11.im.CCM.BS                                                                
+*UsrTIME>  FF=  314.032   RF=   79.761   BI=  113.687   EX0=   68.288   ALL=  603.726   sec - fit = 0414.51901.393.cxt.sc4.C11.im.CCM.BS                                                                
+*SysTIME>  FF=    0.620   RF=    0.144   BI=    0.276   EX0=    0.164   ALL=    1.348   sec - fit = 0414.51901.393.cxt.sc4.C11.im.CCM.BS                                                                
+
+
+**> Welcome to STARLIGHT (v04) & good luck with this run!
+
+**> Read config file: StCv04.C11.config                                                                                   
+**> Read data file: 0784.52327.478.cxt            
+    from dir = /home/cid/STARLIGHTv04/
+    Data goes from:   3200.0  -->   9200.0 Angs with N =  6001 pixels
+    STARLIGHT has read an ERROR (column 3) from 0784.52327.478.cxt                                                                                  
+    STARLIGHT has read an FLAG  (column 4) from 0784.52327.478.cxt                                                                                  
+**> Read base files: Base.BC03.S                                   N_base  = 150
+    from dir = /home/cid/STARLIGHTv04/BasesDir/
+**> Read masks file: Mask.0784.52327.478.cxt.sc2.CRAP.gm.BN        N_masks =  23
+    from dir = /home/cid/STARLIGHTv04/
+**> Modeling 0784.52327.478.cxt             ==> 0784.52327.478.cxt.sc4.C11.im.CCM.BS                                                                
+    Sampling: 3400.0 ==> 8900.0  with dl =   1.0 Angs  & fscale_chi2 = 1.000E+00
+    dl_cushion (A) =   50.0
+    Extinction Law = CCM
+    Initial kinematical parameters: v0 =    0.0 & vd =  150.0 km/s
+    We are going to FIT the spectrum of this galaxy
+    Number of components with different extinction =   0  ( 0.00 < YAV <  0.00)
+    S/N     =   24.786    15.612     in S/N & norm. windows
+    S/N_err =   28.272    17.808     in S/N & norm. windows
+********************************************************************************
+* STARTING FIRST FITS ...
+* N_loops  =   3
+* N_chains =   7
+* Temp     = 1.00E+02 ==> 1.00E+00
+* GR-R     = 1.30E+00 ==> 1.30E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING RE-FIT AFTER CLIPING ...
+* Cliped     5 points with > 3.0 sigma residuals with method = NSIGMA
+* N_loops =   1
+* Temp    = 1.00E+00 ==> 1.00E+00
+* GR-R    = 1.30E+00 ==> 1.30E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING FINAL BURN-IN LOOP...
+* N_loops =   1
+* Temp    = 1.00E+00 ==> 1.00E+00
+* GR-R    = 1.20E+00 ==> 1.20E+00  Method =  0  (0/1=Soft/Hard)
+********************************************************************************
+********************************************************************************
+* STARTING EX0s FITS ...
+* EX0_method     =   CUMUL
+* EX0s_Threshold =   0.020
+* EXOs_PopVector =     MIN
+* N_loops =   5
+* Temp    = 1.00E+00 ==> 1.00E-03
+* GR-R    = 1.20E+00 ==> 1.00E+00  Method =  1  (0/1=Soft/Hard)
+********************************************************************************
+
+**> RESULTS for 0784.52327.478.cxt.sc4.C11.im.CCM.BS                                                                
+   N_tot chi2/Nl_eff    adev |     v0    vd | sum       A_V  Y_AV |     x_j... [%], j = 1 ...150
+ 1587740 6.2085E-01   3.1254 |   -4.3 222.6 | 106.681 -0.08  0.00 |    0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.02   0.00   1.28   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   5.40   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.35   0.00
+                                                                       0.03   0.00   3.73   2.05   3.65   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.03  15.70  17.40  33.69   0.00   0.00   0.00   0.00   0.00
+                                                                       0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00   0.00
+                                                                      13.92   0.00   0.00   0.00   0.00   0.00   0.00   0.00   4.45   4.99
+
+                                                                      Total chi2 =   2.7026E+03  for Nl_eff =  4353 lambdas!
+
+*CidTIME>  FF=      640   RF=      259   BI=      236   EX0=       46   ALL=     1241   sec - fit = 0784.52327.478.cxt.sc4.C11.im.CCM.BS                                                                
+*TotTIME>  FF=  301.535   RF=  124.816   BI=  113.887   EX0=   22.073   ALL=  590.957   sec - fit = 0784.52327.478.cxt.sc4.C11.im.CCM.BS                                                                
+*UsrTIME>  FF=  301.035   RF=  124.584   BI=  113.655   EX0=   22.030   ALL=  589.849   sec - fit = 0784.52327.478.cxt.sc4.C11.im.CCM.BS                                                                
+*SysTIME>  FF=    0.500   RF=    0.232   BI=    0.232   EX0=    0.044   ALL=    1.108   sec - fit = 0784.52327.478.cxt.sc4.C11.im.CCM.BS                                                                
+
