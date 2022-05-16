@@ -1,8 +1,8 @@
 6                                                [Number of fits to run]
-/home/cid/STARLIGHTv04/BasesDir/                 [base_dir]
-/home/cid/STARLIGHTv04/                          [obs_dir]
-/home/cid/STARLIGHTv04/                          [mask_dir]
-/home/cid/STARLIGHTv04/                          [out_dir]
+/home/mayker.1/Desktop/CHAOS-BJT/STARLIGHT/STARLIGHTv04/BasesDir/                 [base_dir]
+/home/mayker.1/Desktop/CHAOS-BJT/STARLIGHT/STARLIGHTv04/                          [obs_dir]
+/home/mayker.1/Desktop/CHAOS-BJT/STARLIGHT/STARLIGHTv04/                        [mask_dir]
+/home/mayker.1/Desktop/CHAOS-BJT/STARLIGHT/STARLIGHTv04/                        [out_dir]
 -2007200                                         [your phone number]
 4730.0                                           [llow_SN]   lower-lambda of S/N window
 4780.0                                           [lupp_SN]   upper-lambda of S/N window

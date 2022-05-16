@@ -1,8 +1,8 @@
 2                                                [Number of fits to run]
-/Users/nessmayker/Desktop/CHAOS-BJT/STARLIGHT/STARLIGHTv04/BasesDir                [base_dir]
-/Users/nessmayker/Desktop/CHAOS-BJT/STARLIGHT/STARLIGHTv04/                         [obs_dir]
-/Users/nessmayker/Desktop/CHAOS-BJT/STARLIGHT/STARLIGHTv04/                          [mask_dir]
-/Users/nessmayker/Desktop/CHAOS-BJT/STARLIGHT/STARLIGHTv04/                         [out_dir]
+/home/mayker.1/Desktop/CHAOS-BJT/STARLIGHT/STARLIGHTv04/BasesDir/                 [base_dir]
+/home/mayker.1/Desktop/CHAOS-BJT/Data/Initial_M33_regs/                          [obs_dir]
+/home/mayker.1/Desktop/CHAOS-BJT/STARLIGHT/STARLIGHTv04/                         [mask_dir]
+/home/mayker.1/Desktop/CHAOS-BJT/Data/StarlightModeling/                         [out_dir]
 -2007200                                         [your phone number]
 4730.0                                           [llow_SN]   lower-lambda of S/N window
 4780.0                                           [lupp_SN]   upper-lambda of S/N window
@@ -13,8 +13,14 @@
 FIT                                              [FIT/FXK] Fit or Fix kinematics
 1                                                [IsErrSpecAvailable]  1/0 = Yes/No
 1                                                [IsFlagSpecAvailable] 1/0 = Yes/No
-0414.51901.393.cxt   StCv04.C11.config   Base.BC03.N   Mask.0414.51901.393.cxt.sc1.CRAP.gm.BN   CCM   0.0   150.0   0414.51901.393.cxt.sc4.C11.im.CCM.BN
-0784.52327.478.cxt   StCv04.C11.config   Base.BC03.N   Mask.0784.52327.478.cxt.sc2.CRAP.gm.BN   CCM   0.0   150.0   0784.52327.478.cxt.sc4.C11.im.CCM.BN
+M33_LS1_20211119f_1.spec   StCv04.C11.config   Base.BC03.N   Mask.EMLines.SDSS.gm   CCM   0.0   150.0   SDSSEL.C11.CCM.BN
+M33_LS1_20220501f_1.spec   StCv04.C11.config   Base.BC03.N   Mask.EMLines.SDSS.gm   CCM   0.0   150.0   SDSSEL.C11.CCM.BN
+M33_LS2_20211119f_1.spec   StCv04.C11.config   Base.BC03.N   Mask.EMLines.SDSS.gm   CCM   0.0   150.0   SDSSEL.C11.CCM.BN
+M33_LS3_20211119f_2.spec   StCv04.C11.config   Base.BC03.N   Mask.EMLines.SDSS.gm   CCM   0.0   150.0   SDSSEL.C11.CCM.BN
+M33_LS3_20211119f_3.spec   StCv04.C11.config   Base.BC03.N   Mask.EMLines.SDSS.gm   CCM   0.0   150.0   SDSSEL.C11.CCM.BN
+M33_LS4_20211119f_1.spec   StCv04.C11.config   Base.BC03.N   Mask.EMLines.SDSS.gm   CCM   0.0   150.0   SDSSEL.C11.CCM.BN
+M33_LS4_20211119f_2.spec   StCv04.C11.config   Base.BC03.N   Mask.EMLines.SDSS.gm   CCM   0.0   150.0   SDSSEL.C11.CCM.BN
+M33_LS5_20211119f_2.spec   StCv04.C11.config   Base.BC03.N   Mask.EMLines.SDSS.gm   CCM   0.0   150.0   SDSSEL.C11.CCM.BN
 
 Example of 2 SDSS galaxies fitted with Base.BC03.N (45 components), CCM law, etc.
 Cid@Lagoa - 29/March/2007
