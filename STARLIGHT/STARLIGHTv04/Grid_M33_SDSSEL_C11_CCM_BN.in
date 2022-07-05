@@ -6,21 +6,21 @@
 -2007200                                         [your phone number]
 4730.0                                           [llow_SN]   lower-lambda of S/N window
 4780.0                                           [lupp_SN]   upper-lambda of S/N window
-3400.0                                           [Olsyn_ini] lower-lambda for fit
-8900.0                                           [Olsyn_fin] upper-lambda for fit
+3100.0                                           [Olsyn_ini] lower-lambda for fit
+5300.0                                           [Olsyn_fin] upper-lambda for fit
 1.0                                              [Odlsyn]    delta-lambda for fit
 1.0                                              [fscale_chi2] fudge-factor for chi2
 FIT                                              [FIT/FXK] Fit or Fix kinematics
 1                                                [IsErrSpecAvailable]  1/0 = Yes/No
 1                                                [IsFlagSpecAvailable] 1/0 = Yes/No
-M33_LS1_20211119f_1.spec   StCv04.C11.config   Base.BC03.N   Masks.EmLines.SDSS.gm   CCM   0.0   150.0   M33_LS1_20211119f_1.spec.SDSSEL.C11.CCM.BN
-M33_LS1_20220501f_1.spec   StCv04.C11.config   Base.BC03.N   Masks.EmLines.SDSS.gm   CCM   0.0   150.0   M33_LS1_20220501f_1.spec.SDSSEL.C11.CCM.BN
-M33_LS2_20211119f_1.spec   StCv04.C11.config   Base.BC03.N   Masks.EmLines.SDSS.gm   CCM   0.0   150.0   M33_LS2_20211119f_1.spec.SDSSEL.C11.CCM.BN
-M33_LS3_20211119f_2.spec   StCv04.C11.config   Base.BC03.N   Masks.EmLines.SDSS.gm   CCM   0.0   150.0   M33_LS3_20211119f_2.spec.SDSSEL.C11.CCM.BN
-M33_LS3_20211119f_3.spec   StCv04.C11.config   Base.BC03.N   Masks.EmLines.SDSS.gm   CCM   0.0   150.0   M33_LS3_20211119f_3.spec.SDSSEL.C11.CCM.BN
-M33_LS4_20211119f_1.spec   StCv04.C11.config   Base.BC03.N   Masks.EmLines.SDSS.gm   CCM   0.0   150.0   M33_LS4_20211119f_1.spec.SDSSEL.C11.CCM.BN
-M33_LS4_20211119f_2.spec   StCv04.C11.config   Base.BC03.N   Masks.EmLines.SDSS.gm   CCM   0.0   150.0   M33_LS4_20211119f_2.spec.SDSSEL.C11.CCM.BN
-M33_LS5_20211119f_2.spec   StCv04.C11.config   Base.BC03.N   Masks.EmLines.SDSS.gm   CCM   0.0   150.0   M33_LS5_20211119f_2.spec.SDSSEL.C11.CCM.BN
+M33_LS1_20211119f_1.spec   StCv04.C11.config   Base.BC03.N   Mask.EmLines_CHAOS_focusbluefit.gm   CCM   0.0   150.0   M33_LS1_20211119f_1.spec.SDSSEL.C11.CCM.BN
+M33_LS1_20220501f_1.spec   StCv04.C11.config   Base.BC03.N   Mask.EmLines_CHAOS_focusbluefit.gm   CCM   0.0   150.0   M33_LS1_20220501f_1.spec.SDSSEL.C11.CCM.BN
+M33_LS2_20211119f_1.spec   StCv04.C11.config   Base.BC03.N   Mask.EmLines_CHAOS_focusbluefit.gm   CCM   0.0   150.0   M33_LS2_20211119f_1.spec.SDSSEL.C11.CCM.BN
+M33_LS3_20211119f_2.spec   StCv04.C11.config   Base.BC03.N   Mask.EmLines_CHAOS_focusbluefit.gm   CCM   0.0   150.0   M33_LS3_20211119f_2.spec.SDSSEL.C11.CCM.BN
+M33_LS3_20211119f_3.spec   StCv04.C11.config   Base.BC03.N   Mask.EmLines_CHAOS_focusbluefit.gm  CCM   0.0   150.0   M33_LS3_20211119f_3.spec.SDSSEL.C11.CCM.BN
+M33_LS4_20211119f_1.spec   StCv04.C11.config   Base.BC03.N   Mask.EmLines_CHAOS_focusbluefit.gm   CCM   0.0   150.0   M33_LS4_20211119f_1.spec.SDSSEL.C11.CCM.BN
+M33_LS4_20211119f_2.spec   StCv04.C11.config   Base.BC03.N   Mask.EmLines_CHAOS_focusbluefit.gm   CCM   0.0   150.0   M33_LS4_20211119f_2.spec.SDSSEL.C11.CCM.BN
+M33_LS5_20211119f_2.spec   StCv04.C11.config   Base.BC03.N   Mask.EmLines_CHAOS_focusbluefit.gm   CCM   0.0   150.0   M33_LS5_20211119f_2.spec.SDSSEL.C11.CCM.BN
 
 Example of 2 SDSS galaxies fitted with Base.BC03.N (45 components), CCM law, etc.
 Cid@Lagoa - 29/March/2007
